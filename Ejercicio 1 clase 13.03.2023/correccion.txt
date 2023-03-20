@@ -1,0 +1,5 @@
+- El escalar debiera ser parámetro de entrada de la función que multiplica por un escalar
+- La función main debiera estar separada de la implementación de las funciones de matrices
+- El uso de headers (archivos .h) e implementaciones (archivos.c) está invertido.
+
+Nota: Corregir y reentregar.
