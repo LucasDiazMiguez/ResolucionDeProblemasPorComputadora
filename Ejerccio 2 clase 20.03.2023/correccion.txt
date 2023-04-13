@@ -1,2 +1,9 @@
 - Los header deben tener las operaciones de precompilador que evitan que puedan ser incluidos
 multiples veces.
+- Los errores en la función create_matrix deben ser manejados usando el stderr y no un printf ya que el
+efecto de eso es que salga por el standard output.
+- Creo que sería más elegante si la inicialización de la matriz fuera a partir de un FILE* en lugar
+de un string
+- Falta implementar el algoritmo de diagonalización
+
+Nota: 6 (siete)
