@@ -1,0 +1,2 @@
+- Los header deben tener las operaciones de precompilador que evitan que puedan ser incluidos
+multiples veces.
