@@ -1,32 +1,32 @@
-
 #ifndef POLYNOMIAL_H
 #define POLYNOMIAL_H
 
 #include <cstdarg>
 #include <iostream>
 
-#define MAX_SIZE 10
 using namespace std;
 
-struct Term
-{
-    float coef;
-    int expo;
-};
-
+#define MAX_SIZE 10
 
 class Polynomial
 {
 private:
     int degree;
-    Term *terms;
+    int *terms;
 
 public:
-    Polynomial(int degree);
+    Polynomial(int grade, ...);
+    Polynomial(int grade, int terms[]);
+    Polynomial(Polynomial &p);
+
     ~Polynomial();
     void input();
     void display();
-    Polynomial operator*(Polynomial &p);
-    Polynomial operator+(Polynomial &p);
+    Polynomial copy();
+    Polynomial operator*(const Polynomial &p);
+    Polynomial operator+(const Polynomial &p);
+    Polynomial operator-(const Polynomial &p);
+    // Polynomial operator/(Polynomial &p);
+    int evaluation(int val);
 };
 #endif // POLYNOMIAL_H

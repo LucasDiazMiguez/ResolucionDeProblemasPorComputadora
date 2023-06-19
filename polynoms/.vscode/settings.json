@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "cstdarg": "cpp",
+        "algorithm": "cpp",
+        "cmath": "cpp",
+        "random": "cpp",
+        "limits": "cpp",
+        "functional": "cpp"
+    }
+}

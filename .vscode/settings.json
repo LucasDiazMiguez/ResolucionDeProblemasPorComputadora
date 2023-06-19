@@ -1,5 +1,9 @@
 {
     "files.associations": {
-        "matrixoperations.h": "c"
+        "matrixoperations.h": "c",
+        "cstdarg": "cpp",
+        "functional": "cpp",
+        "iostream": "cpp",
+        "new": "cpp"
     }
 }
